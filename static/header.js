@@ -1,0 +1,1 @@
+document.write('<META HTTP-EQUIV="CACHE-CONTROL" CONTENT="PUBLIC"><div class="header"> <span class="title maintitle">GrangusVue</span> <button onclick="toggleLoginUI(true)">Login</button><button>About</button> </div>')

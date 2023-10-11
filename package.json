@@ -1,0 +1,26 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^18.0.6",
+    "bindings": "^1.5.0",
+    "express": "^4.18.2",
+    "faye": "^1.4.0",
+    "hoek": "^6.1.3",
+    "joi": "^17.10.2",
+    "nan": "^2.18.0",
+    "node-fetch": "^3.2.6",
+    "soap": "^1.0.0",
+    "socket.io": "^4.7.2",
+    "studentvue.js": "^0.1.1",
+    "ws": "^8.14.2"
+  }
+}

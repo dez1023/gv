@@ -1,0 +1,41 @@
+<html>
+
+  <head>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" type="text/css" href="https://sethusenthil.com/Product-Sans/api/font.css">
+  </head>
+
+  <body>
+    <script src="header.js"></script>
+    <div class="loginui" id="loginui">
+      <div onclick="toggleLoginUI(false)" class="uibg"></div>
+      <div class="loginbg">
+        <span class="title">Account Access</span>
+        <button class="cRed" style="float: right;" onclick="toggleLoginUI(false
+          )">Close</button>
+        <div style="margin-top: 20px">
+          <div class="loginfield">
+            <input type="text" id="districtInput" name="input" value="" required>
+            <label for="input">District URL:</label>
+          </div>
+          <div class="loginfield">
+            <input type="text" id="usernameInput" name="input" value="" required>
+            <label for="input">Username:</label>
+          </div>
+          <div class="loginfield">
+            <input type="text" id="passwordInput" name="input" value="" required>
+            <label for="input">Password:</label>
+          </div>
+          <div class="checkfield">
+            <input type="checkbox" id="checkbox">
+            <label for="checkbox">Remember me</label>
+          </div>
+          <button class="cGreen" style="position: absolute; bottom: 15px; right: 15px;" onclick="login()">Login</button>
+        </div>
+      </div>
+    </div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="code.js"></script>
+  </body>
+
+</html>
